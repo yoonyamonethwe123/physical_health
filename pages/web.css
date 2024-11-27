@@ -1,0 +1,165 @@
+#navigatebr a{
+	color:darkgreen;
+	font-family:Arial;
+	background:rgb(124, 255, 124);
+	font-size: 21.5px;
+	margin-top:20px;
+	padding:15px;
+	margin-bottom:20px;
+	display:inline-block;
+	height:5vh;
+	text-decoration:blink;
+	text-align:center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#navigatebr a:hover{
+	background: linear-gradient(45deg,rgb(69, 238, 69),greenyellow);
+	border-radius:6% 6% 6% 6%;
+	box-shadow:15px darkolivegreen;
+}
+#Welcome{
+	font-family:HoloLens MDL2 Assets;
+	font-style:bold;
+	font-size:95px;
+	text-shadow: 2px 2px rgb(167, 255, 193);
+	color:darkolivegreen;
+	background:rgb(240, 118, 81);
+	margin-top:25px;
+	padding:25px;
+	padding-top:30px;
+	margin-bottom:5px;
+	display:inline-block;
+	height:40vh;
+	width:98vw;
+	border-radius:2% 2% 2% 2%;
+	text-align:center;
+	background-image: url(../media/hearteye.jpg), url(../media/carrot.jfif), url(../media/blonde.jfif);
+	background-blend-mode:screen;
+	background-repeat:no-repeat;
+	background-position: center, left, right;
+
+}
+p{
+	font-family:HoloLens MDL2 Assets;
+	font-size:20px;
+	color:green;
+	padding-top:none;
+}
+#home{
+	background:lightgreen;
+}
+div {
+animation-name: mymove;
+animation-duration:5px;
+}
+#whatis{
+		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-style:normal;
+		font-size:45px;
+		color:darkolivegreen;
+		background:palegreen;
+		margin-top:15px;
+		padding:15px;
+		padding-top:15px;
+		margin-bottom:15px;
+		display:inline-block;
+		height:12vh;
+		width:30vw;
+		border-radius:5% 5% 5% 5%;
+		text-align:center;
+		-moz-box-align: center;
+}
+.one{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #271402;
+	width: 40vw;
+	height: 21vh;
+
+}
+
+#from{
+	background-color: rgb(194, 255, 214);
+	width: 48vw;
+	height: 10vh;
+	text-align: center;
+	padding-top: 1.5%;
+	text-shadow: 15px darkcyan;
+}
+
+#body{
+background-color: rgb(222, 255, 222);
+}
+
+img:hover {
+	opacity: 0.5;
+  }
+
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#purpose{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(26, 145, 76);
+	text-align:center;
+}
+#main{
+	background-color:rgb(123, 255, 123);
+	border-style:solid;
+	border-color:limegreen;
+	border-spacing: 15cm;
+	box-shadow: 7px 7px 5px #08271b8a;
+}
+header{
+	background-image:url(../media/giphy.gif);
+	background-color: #a9faa9f5;
+	background-blend-mode: screen;
+}
+
+.logo{
+	float: right;
+}
+
+.abtus{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(2, 36, 4);
+	font-size: 45px;
+}
+
+#value{
+	opacity: 1;
+	width: 40vw;
+	height: 30vh;
+	padding-top: 10%;
+}
+
+#p{
+	float: left;
+	padding: 20px;
+}
+
+#image{
+	float: right;
+}
+
+#tableabtus{
+	table-layout: fixed;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3%;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer{
+background-color: hwb(113 58% 2%);
+padding:40px;
+padding-top: 20px;
+width:93vw;
+height:20vh;
+font-family: HoloLens MDL2 Assets;
+color: darkgreen !important;
+clear: left;
+}
